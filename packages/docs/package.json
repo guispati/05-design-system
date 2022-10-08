@@ -1,12 +1,12 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@spati-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-	"deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "build-storybook"
   },
   "keywords": [],
@@ -27,9 +27,9 @@
     "vite": "^3.1.6"
   },
   "dependencies": {
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@spati-ignite-ui/react": "*",
+    "@spati-ignite-ui/tokens": "*",
+    "@spati-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
